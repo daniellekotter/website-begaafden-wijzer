@@ -3,6 +3,10 @@ project:
 
 website:
   title: "De Begaafden Wijzer"
+  favicon: /www/images/bw_logo.png
+  search:
+    location: navbar
+    type: overlay
   navbar:
     logo: /www/images/bw_logo.png
     toggle-position: right
@@ -20,11 +24,34 @@ website:
             file: content/begaafden_wijzer/samenhang.qmd
       - text: "Contact"
         file: content/contact/index.qmd
+  page-navigation: true
+  back-to-top-navigation: false
+
+  page-footer:
+    left: >-
+      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/) 
+      © 2024, Daniëlle Kotter
+    right:
+      - icon: house
+        href: https://daniellekotter.github.io/website-dani
+      - icon: github
+        href: https://github.com/danielle-kotter
+      - icon: linkedin
+        href: https://nl.linkedin.com/in/dani%C3%ABlle-kotter
+
+language: 
+  search-text-placeholder: Search
+
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: [flatly, theme.scss]
+    css:
+      - styles.css
     toc: true
+    grid:
+      sidebar-width: 0px
+      body-width: 1000px
+      margin-width: 250px
 
-
-
+execute:
+  freeze: auto
