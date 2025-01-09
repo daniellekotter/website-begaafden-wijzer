@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "De Begaafden Wijzer"
+  navbar:
+    logo: /www/images/bw_logo.png
+    toggle-position: right
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Actueel"
+        file: content/actueel/index.qmd
+      - text: "Begaaden wijzer"
+        file: content/begaafden_wijzer/index.qmd
+        menu:
+          - text: "Visie"
+            file: content/begaafden_wijzer/visie.qmd
+          - text: "Samenhang"
+            file: content/begaafden_wijzer/samenhang.qmd
+      - text: "Contact"
+        file: content/contact/index.qmd
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,9 @@
+---
+title: "Begaafden Wijzer"
+---
+
+About begaafden wijzer.
+
+{{< include samenhang.qmd >}}
+
+{{< include visie.qmd >}}

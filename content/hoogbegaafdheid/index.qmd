@@ -1,0 +1,9 @@
+---
+title: "Hoogbegaafdheid"
+---
+
+{{< include inleiding.qmd >}}
+
+{{< include kenmerken.qmd >}}
+
+{{< include onderwijs_aanpassing.qmd >}}

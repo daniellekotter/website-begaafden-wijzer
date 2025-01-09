@@ -1,0 +1,17 @@
+---
+title: "Marijke Schekkerman"
+about: 
+    template: trestles
+    image: marijke.jpg
+    image-shape: round
+    image-width: 20em
+    links:
+      - icon: github
+        href: https://github.com/danielle-kotter
+      - icon: linkedin
+        href: https://www.linkedin.com/in/marijke-schekkerman-b6424917/?originalSubdomain=nl
+---
+
+{{< include biography.qmd >}}
+
+{{< include contact.qmd >}}
