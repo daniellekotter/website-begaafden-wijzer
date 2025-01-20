@@ -1,8 +1,15 @@
 ---
-title: "Hoogbegaafdheid"
+title: "(Hoog)begaafden in de klas ?? ……. en nu ??"
 ---
 
-{{< include inleiding.qmd >}}
+<iframe src="https://www.youtube.com/embed/yyXiNKgpRQc?rel=0" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+
+Een (hoog)begaafde leerling is niet altijd die zelfstandige leerling, die meedoet met de klas en hoge cijfers haalt, daarnaast op schaken zit, een muziekinstrument bespeelt, in teamverband een sport doet en daarnaast nog alle dagen tijd vindt om boeken te lezen.
+Potentieel (hoog)begaafde volwassenen worden als kind met een hoog potentieel geboren, maar de ontwikkeling tot een evenwichtige goed presterende leerling is afhankelijk van een heleboel factoren in de omgeving van de leerling en in de leerling zelf. De aandacht voor deze groep is de laatste jaren gelukkig groter geworden en de kennis en ervaring op het gebied van de juiste begeleiding neemt toe.
+
+"De Begaafden Wijzer" draagt door middel van professionalisering in het onderwijs veld en leerling- en ouderbegeleiding bij aan de positieve ontwikkeling van deze doelgroep.
+
+> Een hoogbegaafde volwassene is een snelle en slimme denker, die complexe zaken aankan. Autonoom, nieuwsgierig en gedreven van aard. Een sensitief en emotioneel mens, intens levend. Hij of zij schept plezier in creëren.
 
 {{< include kenmerken.qmd >}}
 

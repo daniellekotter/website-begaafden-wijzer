@@ -13,15 +13,30 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Actueel"
-        file: content/actueel/index.qmd
       - text: "Begaaden wijzer"
-        file: content/begaafden_wijzer/index.qmd
         menu:
+          - text: Begaafden wijzer
+            file: content/begaafden_wijzer/index.qmd
           - text: "Visie"
             file: content/begaafden_wijzer/visie.qmd
-          - text: "Samenhang"
-            file: content/begaafden_wijzer/samenhang.qmd
+          - text: "Activiteiten"
+            file: content/begaafden_wijzer/activiteiten.qmd
+          - text: "Tarieven"
+            file: content/begaafden_wijzer/tarieven.qmd
+      - text: "Hoogbegaafdheid"
+        file: content/hoogbegaafdheid/index.qmd
+        menu:
+          - text: "Kenmerken"
+            file: content/hoogbegaafdheid/kenmerken.qmd
+          - text: "Onderwijs"
+            file: content/hoogbegaafdheid/onderwijs_aanpassing.qmd
+      - text: "Ouders en Kinderen"
+        file: content/ouders_en_kinderen/index.qmd
+        menu:
+          - text: "Kenmerken"
+            file: content/ouders_en_kinderen/kindbegeleiding.qmd
+          - text: "Onderwijs"
+            file: content/ouders_en_kinderen/ouderbegeleilding.qmd
       - text: "Contact"
         file: content/contact/index.qmd
   page-navigation: true
@@ -30,14 +45,14 @@ website:
   page-footer:
     left: >-
       [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/) 
-      © 2024, Daniëlle Kotter
+      © 2024, Begaafden Wijzer
     right:
       - icon: house
         href: https://daniellekotter.github.io/website-dani
-      - icon: github
-        href: https://github.com/danielle-kotter
+      - icon: envelope
+        href: mailto:debegaafdenwijzer@ziggo.nl
       - icon: linkedin
-        href: https://nl.linkedin.com/in/dani%C3%ABlle-kotter
+        href: https://www.linkedin.com/in/marijke-schekkerman-b6424917
 
 language: 
   search-text-placeholder: Search

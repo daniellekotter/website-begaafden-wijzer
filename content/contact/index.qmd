@@ -12,6 +12,6 @@ about:
         href: https://www.linkedin.com/in/marijke-schekkerman-b6424917/?originalSubdomain=nl
 ---
 
-{{< include biography.qmd >}}
+{{< include wie.qmd >}}
 
 {{< include contact.qmd >}}

@@ -1,7 +1,7 @@
 ---
-title: "Onderwijsdeskundige Hoogbegaafdheid"
+title: "Onderwijsdeskundige hoogbegaafdheid"
 ---
 
-This is a Quarto website.
+> Een hoogbegaafde volwassene is een snelle en slimme denker, die complexe zaken aankan. Autonoom, nieuwsgierig en gedreven van aard. Een sensitief en emotioneel mens, intens levend. Hij of zij schept plezier in creëren. (Maud Kooijman-van Tiel, 2008)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+> Een hoogbegaafde leerling is een leerling, die kan uitgroeien tot een hoogbegaafde volwassene, mits omgeving, ouders en school samenwerken om de leerling de kans te geven zich te ontwikkelen zoals hij of zij nodig heeft. (Marijke Schekkerman, 2008)

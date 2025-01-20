@@ -34,5 +34,29 @@
   },
   "content/contact/biography.qmd": {
     "biography.html": "ecc3f003"
+  },
+  "content/contact/wie.qmd": {
+    "wie.html": "de382841"
+  },
+  "content/begaafden_wijzer/activiteiten.qmd": {
+    "activiteiten.html": "aee7ef22"
+  },
+  "content/begaafden_wijzer/tarieven.qmd": {
+    "tarieven.html": "b656edde"
+  },
+  "content/ouders_en_kinderen/kindbegeleiding.qmd": {
+    "kindbegeleiding.html": "0f598dbd"
+  },
+  "content/ouders_en_kinderen/index.qmd": {
+    "index.html": "44a9d320"
+  },
+  "content/ouders_en_kinderen/klachten.qmd": {
+    "klachten.html": "2a5e1458"
+  },
+  "content/ouders_en_kinderen/ouderbegeleiding.qmd": {
+    "ouderbegeleiding.html": "0b85e784"
+  },
+  "content/scholen.qmd": {
+    "scholen.html": "ec0de95a"
   }
 }

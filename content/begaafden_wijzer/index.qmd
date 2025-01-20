@@ -2,8 +2,6 @@
 title: "Begaafden Wijzer"
 ---
 
-About begaafden wijzer.
+> Naar ‘Meer-factoren-model van hoogbegaafdheid (Monks, 1985, revisie 1988)
 
-{{< include samenhang.qmd >}}
-
-{{< include visie.qmd >}}
+De Begaafden Wijzer wil zich als spil inzetten voor de nauwe samenwerking tussen de leerling, de ouders en de school om te komen tot een optimale ontwikkeling voor de (hoog)begaafde leerling.

@@ -1,0 +1,11 @@
+---
+title: "Ouders en Kinderen"
+---
+
+About begaafden wijzer.
+
+{{< include kindbegeleiding.qmd >}}
+
+{{< include ouderbegeleiding.qmd >}}
+
+{{< include klachten.qmd >}}

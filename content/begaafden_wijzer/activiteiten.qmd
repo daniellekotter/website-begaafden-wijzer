@@ -1,0 +1,23 @@
+---
+title: "Activiteiten"
+---
+
+‘De Begaafden Wijzer’ draagt zorg voor verschillende activiteiten ter bevordering van de onderwijssituatie van (hoog)begaafde leerlingen. Soms zijn de activiteiten gericht op 1 doelgroep, maar in veel gevallen wordt een samenwerking gestart tussen leerling, ouder en school (zie ook samenhang).
+
+
+### Gericht op de leerling:
+
+- Samenstelling pakket verrijkingsmateriaal.
+- Didactisch doortoetsen van de leerling.
+- Uitvoering van signaleren en diagnostiek.
+- Begeleiding van de leerling(en) op school in de vorm van RT.
+
+Zie [hier](content/ouders_en_kinderen/kindbegeleiding.qmd) voor meer informatie over leerlingbegeleiding.
+
+### Gericht op de ouders:
+- Begeleidingsgesprekken bij vermoeden van(hoog) begaafdheid.
+- Begeleidingsgesprekken opvoeding- en onderwijs vraagstukken.
+- Kennis en informatieoverdracht aan ouders.
+- Contact en interventie met de school omgeving
+
+Zie [hier](content/ouders_en_kinderen/ouderbegeleiding.qmd) voor meer informatie over ouderbegeleiding
