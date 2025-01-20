@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: "De Begaafden Wijzer"
-  favicon: /www/images/bw_logo.png
+  favicon: /www/logos/bw_logo.png
   search:
     location: navbar
     type: overlay
+  sidebar: false
   navbar:
-    logo: /www/images/bw_logo.png
+    logo: /www/logos/logo4.png
     toggle-position: right
     right:
       - text: "Home"
@@ -24,19 +24,21 @@ website:
           - text: "Tarieven"
             file: content/begaafden_wijzer/tarieven.qmd
       - text: "Hoogbegaafdheid"
-        file: content/hoogbegaafdheid/index.qmd
         menu:
+          - text: "Hoogbegaafdheid"
+            file: content/hoogbegaafdheid/index.qmd
           - text: "Kenmerken"
             file: content/hoogbegaafdheid/kenmerken.qmd
           - text: "Onderwijs"
             file: content/hoogbegaafdheid/onderwijs_aanpassing.qmd
       - text: "Ouders en Kinderen"
-        file: content/ouders_en_kinderen/index.qmd
         menu:
+          - text: "Ouders en Kinderen"
+            file: content/ouders_en_kinderen/index.qmd
           - text: "Kenmerken"
             file: content/ouders_en_kinderen/kindbegeleiding.qmd
           - text: "Onderwijs"
-            file: content/ouders_en_kinderen/ouderbegeleilding.qmd
+            file: content/ouders_en_kinderen/ouderbegeleiding.qmd
       - text: "Contact"
         file: content/contact/index.qmd
   page-navigation: true
@@ -59,14 +61,15 @@ language:
 
 format:
   html:
+    highlight-style: github-dark #change text from code chunks to white. 
+    smooth-scroll: true
     theme: [flatly, theme.scss]
-    css:
-      - styles.css
+    css: styles.css
     toc: true
-    grid:
-      sidebar-width: 0px
-      body-width: 1000px
-      margin-width: 250px
+    code-link: true
+    link-external-newwindow: true 
+
+editor: visual
 
 execute:
   freeze: auto

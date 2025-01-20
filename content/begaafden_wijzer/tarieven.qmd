@@ -1,5 +1,6 @@
 ---
 title: "Tarieven"
+toc: false
 ---
 
 ### Tarief voor professionalisering leerkrachten, teams en besturen:

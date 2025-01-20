@@ -2,12 +2,16 @@
 title: "Marijke Schekkerman"
 about: 
     template: trestles
-    image: marijke.jpg
+    image: ../../marijke.jpg
     image-shape: round
     image-width: 20em
     links:
-      - icon: github
-        href: https://github.com/danielle-kotter
+      - icon: envelope
+        href: mailto:debegaafdenwijzer@ziggo.nl
+      - icon: phone
+        href: tel:+31622842667
+      - icon: map
+        href: https://maps.app.goo.gl/hTRz12Uv5w4RFpuU9
       - icon: linkedin
         href: https://www.linkedin.com/in/marijke-schekkerman-b6424917/?originalSubdomain=nl
 ---
