@@ -16,7 +16,7 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Begaaden wijzer"
+      - text: "De Begaafden Wijzer"
         menu:
           - text: Samenhang
             file: content/begaafden_wijzer/index.qmd
