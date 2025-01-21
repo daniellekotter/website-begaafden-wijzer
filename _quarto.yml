@@ -2,12 +2,14 @@ project:
   type: website
 
 website:
+  title: De Begaafden Wijzer
   favicon: /www/logos/bw_logo.png
   search:
     location: navbar
     type: overlay
   sidebar: false
   navbar:
+    title: false
     logo: /www/logos/logo4.png
     toggle-position: right
     right:
@@ -15,7 +17,7 @@ website:
         href: index.qmd
       - text: "Begaaden wijzer"
         menu:
-          - text: Begaafden wijzer
+          - text: Samenhang
             file: content/begaafden_wijzer/index.qmd
           - text: "Visie"
             file: content/begaafden_wijzer/visie.qmd
@@ -25,7 +27,7 @@ website:
             file: content/begaafden_wijzer/tarieven.qmd
       - text: "Hoogbegaafdheid"
         menu:
-          - text: "Hoogbegaafdheid"
+          - text: "Overzicht"
             file: content/hoogbegaafdheid/index.qmd
           - text: "Kenmerken"
             file: content/hoogbegaafdheid/kenmerken.qmd
@@ -33,11 +35,11 @@ website:
             file: content/hoogbegaafdheid/onderwijs_aanpassing.qmd
       - text: "Ouders en Kinderen"
         menu:
-          - text: "Ouders en Kinderen"
+          - text: "Overzicht"
             file: content/ouders_en_kinderen/index.qmd
-          - text: "Kenmerken"
+          - text: "Kindbegeleiding"
             file: content/ouders_en_kinderen/kindbegeleiding.qmd
-          - text: "Onderwijs"
+          - text: "Ouderbegeleiding"
             file: content/ouders_en_kinderen/ouderbegeleiding.qmd
       - text: "Contact"
         file: content/contact/index.qmd
@@ -48,9 +50,12 @@ website:
     left: >-
       [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/) 
       © 2024, Begaafden Wijzer
+    center:
+      - text: Algemene Voorwaarden
+        href: content/voorwaarden.qmd
     right:
       - icon: house
-        href: https://daniellekotter.github.io/website-dani
+        href: https://debegaadenwijzer.nl
       - icon: envelope
         href: mailto:debegaafdenwijzer@ziggo.nl
       - icon: linkedin
@@ -68,8 +73,6 @@ format:
     toc: true
     code-link: true
     link-external-newwindow: true 
-
-editor: visual
 
 execute:
   freeze: auto

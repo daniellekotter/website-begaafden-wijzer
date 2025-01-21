@@ -1,8 +1,5 @@
----
-title: "Klachtenregeling"
-toc: false
----
+## Klachtenregeling
 
 De Begaafden Wijzer is aangesloten bij de [ECHA-Vereniging Nederland](http://www.echanetwerk.nl/).
 
-Vanuit de interne klachtenregeling, [download id="395"] waarin in eerste instantie de klacht door de Begaafden Wijzer in goed overleg opgelost wordt, is het mogelijk om in het geval dat oplossing lastig blijft een klacht in te dienen bij de ECHA vereniging Nederland.
+Vanuit de interne klachtenregeling, waarin in eerste instantie de klacht door de Begaafden Wijzer in goed overleg opgelost wordt, is het mogelijk om in het geval dat oplossing lastig blijft een klacht in te dienen bij de ECHA vereniging Nederland.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>contact</title>
+<title>contact – De Begaafden Wijzer</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e25cc82807363e79c52e96bc8b7855f1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-9d61178599a9ec100c3a789621485018.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-4342048de74319ba0f5f75a44af0f702.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,12 +66,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -99,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-begaaden-wijzer">    
         <li>
     <a class="dropdown-item" href="../../content/begaafden_wijzer/index.html">
- <span class="dropdown-text">Begaafden wijzer</span></a>
+ <span class="dropdown-text">Samenhang</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../content/begaafden_wijzer/visie.html">
@@ -122,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-hoogbegaafdheid">    
         <li>
     <a class="dropdown-item" href="../../content/hoogbegaafdheid/index.html">
- <span class="dropdown-text">Hoogbegaafdheid</span></a>
+ <span class="dropdown-text">Overzicht</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../content/hoogbegaafdheid/kenmerken.html">
@@ -141,15 +142,15 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-ouders-en-kinderen">    
         <li>
     <a class="dropdown-item" href="../../content/ouders_en_kinderen/index.html">
- <span class="dropdown-text">Ouders en Kinderen</span></a>
+ <span class="dropdown-text">Overzicht</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../content/ouders_en_kinderen/kindbegeleiding.html">
- <span class="dropdown-text">Kenmerken</span></a>
+ <span class="dropdown-text">Kindbegeleiding</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../content/ouders_en_kinderen/ouderbegeleiding.html">
- <span class="dropdown-text">Onderwijs</span></a>
+ <span class="dropdown-text">Ouderbegeleiding</span></a>
   </li>  
     </ul>
   </li>
@@ -168,15 +169,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#contact" id="toc-contact" class="nav-link active" data-scroll-target="#contact">Contact</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -296,6 +289,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -616,12 +614,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" class="img-fluid" alt="License: MIT"></a> <a href="http://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" class="img-fluid" alt="CC BY 4.0"></a> © 2024, Begaafden Wijzer</p>
 </div>   
     <div class="nav-footer-center">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../content/voorwaarden.html">
+<p>Algemene Voorwaarden</p>
+</a>
+  </li>  
+</ul>
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="https://daniellekotter.github.io/website-dani">
+    <a class="nav-link" href="https://debegaadenwijzer.nl">
       <i class="bi bi-house" role="img">
 </i> 
     </a>
@@ -646,4 +650,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
