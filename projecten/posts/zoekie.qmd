@@ -1,7 +1,7 @@
 ---
 title: "ZOEKIE"
 description: "Jonge Speurders op expeditie met ZOEKIE bestaat uit leerlingmateriaal, twee posters, werkbladen en hulp- en oefenbladen rond de onderzoekscyclus en zelfinzicht en persoonlijkheidsontwikkeling."
-date: "5/22/2015"
+date: "5/22/2017"
 image: ../../www/images/zoekie.jpg
 ---
 

@@ -12,6 +12,7 @@ website:
   navbar:
     title: false
     logo: /www/logos/logo4.png
+    logo-href: /content/index.qmd
     toggle-position: right
     right:
       - text: "Home"

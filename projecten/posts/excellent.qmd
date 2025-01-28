@@ -1,7 +1,7 @@
 ---
 title: "Excellent en begaafd"
 description: "In de cursus “Excellent en begaafd (in het) onderwijs”, zal aan een breed scala onderwerpen aandacht besteed worden, zodat de leerkracht handvatten krijgt voor de begeleiding van de leerlingen."
-date: "5/22/2019"
+date: "5/22/2016"
 image: ../../www/images/logo-saz.jpg
 ---
 

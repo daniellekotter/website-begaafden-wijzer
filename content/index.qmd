@@ -8,10 +8,13 @@ format:
 listing:
   - id: landing-projects
     contents: ../projecten/posts/*.qmd
-    type: default
+    sort: "date desc"
+    type: grid
+    categories: false
+    sort-ui: false
+    filter-ui: false
     max-items: 3
-    sort:
-      - "date desc"
+    feed: false
 ---
 
 ::: {.content-container}
