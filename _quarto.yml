@@ -42,6 +42,8 @@ website:
             file: content/ouders_en_kinderen/kindbegeleiding.qmd
           - text: "Ouderbegeleiding"
             file: content/ouders_en_kinderen/ouderbegeleiding.qmd
+      - text: "Projecten"
+        href: projecten/index.qmd
       - text: "Contact"
         file: content/contact/index.qmd
   page-navigation: true

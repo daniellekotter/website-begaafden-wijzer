@@ -1,0 +1,9 @@
+---
+title: "Projecten"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [image, title, description]
+  image-align: left
+---

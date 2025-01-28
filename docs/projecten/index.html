@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>pret – De Begaafden Wijzer</title>
+<title>Projecten – De Begaafden Wijzer</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../..//www/logos/bw_logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e25cc82807363e79c52e96bc8b7855f1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5f6b6890d5ffd059b3328469549f4370.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//www/logos/bw_logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e25cc82807363e79c52e96bc8b7855f1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-5f6b6890d5ffd059b3328469549f4370.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -66,8 +68,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -78,8 +138,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../www/logos/logo4.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../www/logos/logo4.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -89,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../content/index.html"> 
+    <a class="nav-link" href="../content/index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -98,19 +158,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-de-begaafden-wijzer">    
         <li>
-    <a class="dropdown-item" href="../../content/begaafden_wijzer/index.html">
+    <a class="dropdown-item" href="../content/begaafden_wijzer/index.html">
  <span class="dropdown-text">Samenhang</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/begaafden_wijzer/visie.html">
+    <a class="dropdown-item" href="../content/begaafden_wijzer/visie.html">
  <span class="dropdown-text">Visie</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/begaafden_wijzer/activiteiten.html">
+    <a class="dropdown-item" href="../content/begaafden_wijzer/activiteiten.html">
  <span class="dropdown-text">Activiteiten</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/begaafden_wijzer/tarieven.html">
+    <a class="dropdown-item" href="../content/begaafden_wijzer/tarieven.html">
  <span class="dropdown-text">Tarieven</span></a>
   </li>  
     </ul>
@@ -121,15 +181,15 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-hoogbegaafdheid">    
         <li>
-    <a class="dropdown-item" href="../../content/hoogbegaafdheid/index.html">
+    <a class="dropdown-item" href="../content/hoogbegaafdheid/index.html">
  <span class="dropdown-text">Overzicht</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/hoogbegaafdheid/kenmerken.html">
+    <a class="dropdown-item" href="../content/hoogbegaafdheid/kenmerken.html">
  <span class="dropdown-text">Kenmerken</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/hoogbegaafdheid/onderwijs_aanpassing.html">
+    <a class="dropdown-item" href="../content/hoogbegaafdheid/onderwijs_aanpassing.html">
  <span class="dropdown-text">Onderwijs</span></a>
   </li>  
     </ul>
@@ -140,21 +200,25 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-ouders-en-kinderen">    
         <li>
-    <a class="dropdown-item" href="../../content/ouders_en_kinderen/index.html">
+    <a class="dropdown-item" href="../content/ouders_en_kinderen/index.html">
  <span class="dropdown-text">Overzicht</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/ouders_en_kinderen/kindbegeleiding.html">
+    <a class="dropdown-item" href="../content/ouders_en_kinderen/kindbegeleiding.html">
  <span class="dropdown-text">Kindbegeleiding</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../content/ouders_en_kinderen/ouderbegeleiding.html">
+    <a class="dropdown-item" href="../content/ouders_en_kinderen/ouderbegeleiding.html">
  <span class="dropdown-text">Ouderbegeleiding</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../content/contact/index.html"> 
+    <a class="nav-link active" href="../projecten/index.html" aria-current="page"> 
+<span class="menu-text">Projecten</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../content/contact/index.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -172,18 +236,148 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projecten</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
 
 
 
 
-<p><img class=" wp-image-204 alignleft" src="http://debegaafdenwijzer.nl/wp-content/uploads/2015/10/logo-we-love-weesp.jpg" alt="logo we love weesp" width="274" height="161">In het najaar van 2015 is De Begaafden Wijzer samen met 3 basisscholen en een hobbyclub met het aanbieden van Programmeren aan kinderen in en om Weesp. Op de Jan Woudsmaschool Driemond, De Terp en de Jozefschool in Weesp en de Jozefschool uit Muiden, is gestart met het inrichten van een leerlijn programmeren, waarbij in de eerste fase gewerkt wordt met Lego We-do en Mindstorms. Nadat de kinderen de basis van programmeren op school wordt aangeleerd kunnen de kinderen, die dat leuk vinden, aansluiten bij een Hobbyclub: Stichting PReT in Weesp.</p>
-<p>Elke dinsdagavond, in de aula van de Terp, wordt er door ongeveer 20 kinderen met veel plezier gebouwd en geprogrammeerd&nbsp; met activiteiten met Scratch, Lego-we-do, Websites maken en&nbsp;Lego Mindstorms, zie ook de <a href="https://www.facebook.com/Stichting-PReT-1613161255614139/?ref=aymt_homepage_panel" target="_blank" rel="noopener">Facebook-pagina</a> van de stichting in oprichting.</p>
-<p>Voor meer informatie:&nbsp;<a href="../../www/Programma-2018-2019.pdf">hier</a></p>
 
 
-
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-date-sort="1653170400000" data-listing-file-modified-sort="1738055560268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<div class="thumbnail">
+<p><a href="../projecten/posts/pret.html" class="no-external"></a></p><a href="../projecten/posts/pret.html" class="no-external">
+<p><img loading="lazy" src="../www/images/logo-we-love-weesp.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/pret.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/pret.html" class="no-external">Stichting PReT</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/pret.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/pret.html" class="no-external">Programmeren voor kinderen in Weesp met PReT. Activiteiten met Scratch, Lego-we-do, Websites maken en&nbsp;Lego Mindstorms.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../projecten/posts/pret.html" class="no-external"></a></p><a href="../projecten/posts/pret.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-date-sort="1558476000000" data-listing-file-modified-sort="1738055586234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="460">
+<div class="thumbnail">
+<p><a href="../projecten/posts/excellent.html" class="no-external"></a></p><a href="../projecten/posts/excellent.html" class="no-external">
+<p><img loading="lazy" src="../www/images/logo-saz.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/excellent.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/excellent.html" class="no-external">Excellent en begaafd</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/excellent.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/excellent.html" class="no-external">In de cursus “Excellent en begaafd (in het) onderwijs”, zal aan een breed scala onderwerpen aandacht besteed worden, zodat de leerkracht handvatten krijgt voor de begeleiding van de leerlingen.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../projecten/posts/excellent.html" class="no-external"></a></p><a href="../projecten/posts/excellent.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-listing-date-sort="1526940000000" data-listing-file-modified-sort="1738055875841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
+<div class="thumbnail">
+<p><a href="../projecten/posts/familie_expeditie.html" class="no-external"></a></p><a href="../projecten/posts/familie_expeditie.html" class="no-external">
+<p><img loading="lazy" src="../www/logos/logo-groot-2-300x59.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/familie_expeditie.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/familie_expeditie.html" class="no-external">FamilieXpeditie</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/familie_expeditie.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/familie_expeditie.html" class="no-external">De FamilieXpeditie Bonaire is een weekprogramma voor gezinnen met kinderen in de basisschoolleeftijd. Het programma bestaat uit een combinatie van verrijkingsonderwijs voor kinderen, een inspirerend ouderprogramma en leuke verbindende gezinsactiviteiten.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../projecten/posts/familie_expeditie.html" class="no-external"></a></p><a href="../projecten/posts/familie_expeditie.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="3" data-listing-date-sort="1432245600000" data-listing-file-modified-sort="1738055571648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="391">
+<div class="thumbnail">
+<p><a href="../projecten/posts/zoekie.html" class="no-external"></a></p><a href="../projecten/posts/zoekie.html" class="no-external">
+<p><img loading="lazy" src="../www/images/zoekie.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/zoekie.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/zoekie.html" class="no-external">ZOEKIE</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/zoekie.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/zoekie.html" class="no-external">Jonge Speurders op expeditie met ZOEKIE bestaat uit leerlingmateriaal, twee posters, werkbladen en hulp- en oefenbladen rond de onderzoekscyclus en zelfinzicht en persoonlijkheidsontwikkeling.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../projecten/posts/zoekie.html" class="no-external"></a></p><a href="../projecten/posts/zoekie.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="4" data-listing-date-sort="1431295200000" data-listing-file-modified-sort="1738055577482" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
+<div class="thumbnail">
+<p><a href="../projecten/posts/ouder_speelmiddag.html" class="no-external"></a></p><a href="../projecten/posts/ouder_speelmiddag.html" class="no-external">
+<p><img loading="lazy" src="../www/images/spellentafel.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/ouder_speelmiddag.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/ouder_speelmiddag.html" class="no-external">Ouder-speelmiddagen</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/ouder_speelmiddag.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/ouder_speelmiddag.html" class="no-external">In 2016 waren er regelmatig op zondagmiddag een ontmoetingsmiddagen voor ouders en kinderen in restaurant Aaltje.</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="../projecten/posts/ouder_speelmiddag.html" class="no-external"></a></p><a href="../projecten/posts/ouder_speelmiddag.html" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -612,7 +806,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../www/Algemene-voorwaarden-De-Begaafden-Wijzer-2018.pdf" target="_blank">
+    <a class="nav-link" href="../www/Algemene-voorwaarden-De-Begaafden-Wijzer-2018.pdf" target="_blank">
 <p>Algemene Voorwaarden</p>
 </a>
   </li>  
@@ -649,5 +843,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -1,13 +1,21 @@
-<strong><a href="http://debegaafdenwijzer.nl/wp-content/uploads/2015/10/zoekie.jpg"><img class="alignleft  wp-image-233" src="http://debegaafdenwijzer.nl/wp-content/uploads/2015/10/zoekie-300x281.jpg" alt="zoekie" width="208" height="195" /></a>Jonge Speurders op expeditie met ZOEKIE bestaat uit leerlingmateriaal, twee posters, werkbladen en hulp- en oefenbladen rond de onderzoekscyclus en zelfinzicht en persoonlijkheidsontwikkeling. </strong>
+---
+title: "ZOEKIE"
+description: "Jonge Speurders op expeditie met ZOEKIE bestaat uit leerlingmateriaal, twee posters, werkbladen en hulp- en oefenbladen rond de onderzoekscyclus en zelfinzicht en persoonlijkheidsontwikkeling."
+date: "5/22/2015"
+image: ../../www/images/zoekie.jpg
+---
 
-De posters geven de expeditie weer waarin (meerbegaafde) leerlingen op een speelse manier (met behulp van avatar ‘Zoekie’) door de verschillende stappen van het bepalen van een onderzoeksonderwerp (‘problem finding’) en de uitvoering van een daadwerkelijk onderzoek (‘problem solving’) heen lopen. De posters worden ondersteund door leerlingmateriaal en materiaal voor leraren en ouders/verzorgers. Het leerlingmateriaal leidt de kinderen door de stappen van zelf inzicht en persoonlijkheidsontwikkeling en door de stappen van onderzoekend leren, geeft (eenvoudige) toelichting op de achtergrond van onderzoek doen en biedt opdrachten en werkvormen aan. Het materiaal voor leerkrachten en ouders-/verzorgers geeft achtergronden bij het leerlingmateriaal en biedt aanwijzingen voor de begeleiding van kinderen bij het doen van onderzoek. Ouders worden daarnaast door middel van gerichte opdrachten betrokken bij het werk dat hun kinderen op school doen.
+De posters geven de expeditie weer waarin (meerbegaafde) leerlingen op een speelse manier (met behulp van avatar ‘Zoekie’) door de verschillende stappen van het bepalen van een onderzoeksonderwerp (‘problem finding’) en de uitvoering van een daadwerkelijk onderzoek (‘problem solving’) heen lopen. De posters worden ondersteund door leerlingmateriaal en materiaal voor leraren en ouders/verzorgers. Het leerlingmateriaal leidt de kinderen door de stappen van zelf inzicht en persoonlijkheidsontwikkeling en door de stappen van onderzoekend leren, geeft (eenvoudige) toelichting op de achtergrond van onderzoek doen en biedt opdrachten en werkvormen aan.
+
+Het materiaal voor leerkrachten en ouders-/verzorgers geeft achtergronden bij het leerlingmateriaal en biedt aanwijzingen voor de begeleiding van kinderen bij het doen van onderzoek. Ouders worden daarnaast door middel van gerichte opdrachten betrokken bij het werk dat hun kinderen op school doen.
 
 Het uitdagen van (hoog)begaafde kinderen is op veel scholen een grote uitdaging. Deze kinderen hoeven niet zozeer meer lesstof aangeboden te krijgen, het gaat er vooral om dat zij op een andere manier uitgedaagd worden. Dit kan bijvoorbeeld door een beroep te doen op hogere orde denkvaardigheden (‘analyseren’, ‘evalueren’ en ‘creëren’). Ook breder kijken, of ‘andersom’ denken en kijken kan een weg zijn. Het gaat dus vooral om een andere manier van vragen stellen, die een beroep doet op vaardigheden die in de standaard lesmethode vaak niet aan bod komen.
 
 Jonge Speurders vraagt om deze andere manier van kijken, van vragen stellen en creatief denken. En het betrekt de omgeving van het kind in dit proces: klasgenootjes, leerkracht én ouders/verzorgers. Er is voor ouders/verzorgers niet alleen een eigen map met daarin het materiaal van Zoekies expeditie, maar zij doen ook mee met het kind. Soms is dit meekijken, soms een discussie voeren over een onderwerp, soms een opdracht samen uitvoeren. Zo weet de ouder/verzorger niet alleen waar het kind mee bezig is, maar speelt hij/zij ook een wezenlijke rol in diens leerproces.
 
-Download hier het ZOEKIE materiaal:
-<ul>
+Zoek contact op voor het ZOEKIE materiaal.
+
+<!-- <ul>
 	<li><a class="download" title="Initiates file download" href="http://www.schoolaanzet.nl/fileadmin/contentelementen/school_aan_zet/Opbrengsten_CfP_2013-2014/JongeSpeurders_Handreiking_leerkracht.pdf" target="_blank">Handreiking leerkracht</a></li>
 	<li><a class="download" title="Initiates file download" href="http://www.schoolaanzet.nl/fileadmin/contentelementen/school_aan_zet/Opbrengsten_CfP_2013-2014/JongeSpeurders_Handreiking_ouder-verzorger.pdf">Handreiking ouder/verzorger</a></li>
 	<li><a class="download" title="Initiates file download" href="http://www.schoolaanzet.nl/fileadmin/contentelementen/school_aan_zet/Opbrengsten_CfP_2013-2014/JongeSpeurders_Oefen-hulpbladen_leerling.pdf" target="_blank">Oefen-hulpbladen leerling</a></li>
@@ -16,4 +24,4 @@ Download hier het ZOEKIE materiaal:
 	<li><a class="download" title="Initiates file download" href="http://www.schoolaanzet.nl/fileadmin/contentelementen/school_aan_zet/Opbrengsten_CfP_2013-2014/JongeSpeurders_Op-expeditie-met-Zoekie_leerling.compressed.pdf" target="_blank">Op expeditie met Zoekie (leerling)</a></li>
 	<li>Poster (A3) <a class="download" title="Initiates file download" href="http://www.schoolaanzet.nl/fileadmin/contentelementen/school_aan_zet/Opbrengsten_CfP_2013-2014/JongeSpeurders-Poster1_A3.pdf" target="_blank">Ik zou weleens willen weten</a></li>
 	<li>Poster (A3) <a class="download" title="Initiates file download" href="http://www.schoolaanzet.nl/fileadmin/contentelementen/school_aan_zet/Opbrengsten_CfP_2013-2014/JongeSpeurders_Poster2_A3.pdf" target="_blank">Ik zou weleens willen onderzoeken</a></li>
-</ul>
+</ul> -->
