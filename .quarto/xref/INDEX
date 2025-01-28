@@ -61,5 +61,29 @@
   },
   "content/voorwaarden.qmd": {
     "voorwaarden.html": "c18b53ee"
+  },
+  "content/projecten/ouder_speelmiddag.qmd": {
+    "ouder_speelmiddag.html": "412e4090"
+  },
+  "content/projecten/zoekie.qmd": {
+    "zoekie.html": "f5fee544"
+  },
+  "content/projecten/noordpoolacedemie.qmd": {
+    "noordpoolacedemie.html": "0ee87987"
+  },
+  "content/projecten/familie_expeditie.qmd": {
+    "familie_expeditie.html": "1b8a4e3c"
+  },
+  "content/projecten/excellent.qmd": {
+    "excellent.html": "110fdb4c"
+  },
+  "content/projecten/pret.qmd": {
+    "pret.html": "a4d00ad0"
+  },
+  "content/index.qmd": {
+    "index.html": "36f6471c"
+  },
+  "content/scholen/scholen.qmd": {
+    "scholen.html": "d4a08b61"
   }
 }

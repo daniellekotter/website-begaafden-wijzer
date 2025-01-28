@@ -2,7 +2,7 @@
 toc: false
 format: 
   html: 
-    include-in-header: intro.html
+    include-in-header: ./intro.html
     sidebar: false
     anchor-sections: false
 ---

@@ -15,7 +15,7 @@ website:
     toggle-position: right
     right:
       - text: "Home"
-        href: index.qmd
+        href: content/index.qmd
       - text: "De Begaafden Wijzer"
         menu:
           - text: Samenhang
@@ -48,12 +48,10 @@ website:
   back-to-top-navigation: false
 
   page-footer:
-    left: >-
-      [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/) 
-      © 2024, Begaafden Wijzer
-    center:
+    left:
       - text: Algemene Voorwaarden
-        href: content/voorwaarden.qmd
+        file: /www/Algemene-voorwaarden-De-Begaafden-Wijzer-2018.pdf
+        target: _blank
     right:
       - icon: house
         href: https://debegaadenwijzer.nl
@@ -62,15 +60,14 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/marijke-schekkerman-b6424917
 
-language: 
+language:
   search-text-placeholder: Search
 
 format:
   html:
-    highlight-style: github-dark #change text from code chunks to white. 
+    highlight-style: github-dark # changes text from code chunks to white 
     smooth-scroll: true
-    theme: [flatly, theme.scss]
-    css: styles.css
+    theme: [flatly, www/theme.scss]
     toc: true
     code-link: true
     link-external-newwindow: true 

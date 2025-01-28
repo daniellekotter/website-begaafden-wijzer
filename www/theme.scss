@@ -1,3 +1,31 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+// Base document colors
+$bw_red: #d1371c;
+$bw_grey: #747572;
+$primary: $bw_red;
+$secondary: $bw_grey;
+
+// Navbar
+$navbar-bg: lighten($primary, 10%);
+
+#quarto-content {
+    font-family: "Atkinson Hyperlegible", Sans-serif;
+    font-size: 1rem;
+    color: black;
+    padding-top: 0px;
+}
+
+/*-- scss:rules --*/
+.navbar {
+    background-color: $navbar-bg !important;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: darken($primary, 10%) !important;
+}
 /* css styles */
 .navbar-logo {
     max-height: 50px;
@@ -42,13 +70,14 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 858px) {
   .overlay-text {
     font-size: 30px;
   }
 
   .overlay-img-container img {
     width: 100%;
+    object-fit: cover;
     height: 610px;
   }
 }
@@ -60,9 +89,11 @@
 
   .overlay-img-container img {
     height: 400px;
+    object-fit: cover;
+    width: 100%;
   }
 }
 
 .iframe {
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
