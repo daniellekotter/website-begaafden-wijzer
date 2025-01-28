@@ -8,5 +8,15 @@
       "/projecten/posts/zoekie.html",
       "/projecten/posts/ouder_speelmiddag.html"
     ]
+  },
+  {
+    "listing": "/content/index.html",
+    "items": [
+      "/projecten/posts/pret.html",
+      "/projecten/posts/excellent.html",
+      "/projecten/posts/familie_expeditie.html",
+      "/projecten/posts/zoekie.html",
+      "/projecten/posts/ouder_speelmiddag.html"
+    ]
   }
 ]

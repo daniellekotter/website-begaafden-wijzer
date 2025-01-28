@@ -31,6 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="..//www/logos/bw_logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-e25cc82807363e79c52e96bc8b7855f1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5f6b6890d5ffd059b3328469549f4370.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8df62e485dc0487a7e8f34812ab357ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,6 +67,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-landing-projects .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-landing-projects'] = new List('listing-landing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 </head><body class="nav-fixed fullcontent"><div class="overlay-img-container">
   <img src="../www/images/gifted_child.jpg" alt="Gifted Child" class="image">
@@ -73,6 +104,35 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </div>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 
 
@@ -184,12 +244,106 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<div class="content-container">
+<div class="listing-block">
+<div style="text-align: center;">
 <dl>
 <dt>Een hoogbegaafde volwassene is een snelle en slimme denker, die complexe zaken aankan. Autonoom, nieuwsgierig en gedreven van aard. Een sensitief en emotioneel mens, intens levend. Hij of zij schept plezier in creëren.</dt>
 <dd>
 <p>(Maud Kooijman-van Tiel, 2008)</p>
 </dd>
 </dl>
+</div>
+</div>
+</div>
+<div class="content-container">
+<section id="projecten" class="level3 listing-block">
+<h3 data-anchor-id="projecten"><a href="../projecten/index.html">Projecten</a></h3>
+<div id="listing-landing-projects" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1653170400000" data-listing-file-modified-sort="1738055560268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+<div class="thumbnail">
+<p><a href="../projecten/posts/pret.html" class="no-external"></a></p><a href="../projecten/posts/pret.html" class="no-external">
+<p><img loading="lazy" src="../www/images/logo-we-love-weesp.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/pret.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/pret.html" class="no-external">Stichting PReT</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/pret.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/pret.html" class="no-external">Programmeren voor kinderen in Weesp met PReT. Activiteiten met Scratch, Lego-we-do, Websites maken en&nbsp;Lego Mindstorms.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../projecten/posts/pret.html" class="no-external">
+<div class="listing-date">
+May 22, 2022
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-date-sort="1558476000000" data-listing-file-modified-sort="1738055586234" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="460">
+<div class="thumbnail">
+<p><a href="../projecten/posts/excellent.html" class="no-external"></a></p><a href="../projecten/posts/excellent.html" class="no-external">
+<p><img loading="lazy" src="../www/images/logo-saz.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/excellent.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/excellent.html" class="no-external">Excellent en begaafd</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/excellent.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/excellent.html" class="no-external">In de cursus “Excellent en begaafd (in het) onderwijs”, zal aan een breed scala onderwerpen aandacht besteed worden, zodat de leerkracht handvatten krijgt voor de begeleiding van de leerlingen.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../projecten/posts/excellent.html" class="no-external">
+<div class="listing-date">
+May 22, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-date-sort="1526940000000" data-listing-file-modified-sort="1738055875841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="158">
+<div class="thumbnail">
+<p><a href="../projecten/posts/familie_expeditie.html" class="no-external"></a></p><a href="../projecten/posts/familie_expeditie.html" class="no-external">
+<p><img loading="lazy" src="../www/logos/logo-groot-2-300x59.jpg" class="thumbnail-image"></p>
+</a><p><a href="../projecten/posts/familie_expeditie.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../projecten/posts/familie_expeditie.html" class="no-external">FamilieXpeditie</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../projecten/posts/familie_expeditie.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="../projecten/posts/familie_expeditie.html" class="no-external">De FamilieXpeditie Bonaire is een weekprogramma voor gezinnen met kinderen in de basisschoolleeftijd. Het programma bestaat uit een combinatie van verrijkingsonderwijs voor kinderen, een inspirerend ouderprogramma en leuke verbindende gezinsactiviteiten.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../projecten/posts/familie_expeditie.html" class="no-external">
+<div class="listing-date">
+May 22, 2018
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+</div>
+
 
 
 

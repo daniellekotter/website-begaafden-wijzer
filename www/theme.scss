@@ -94,6 +94,24 @@ $navbar-bg: lighten($primary, 10%);
   }
 }
 
+
+.listing-block {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 1.1em; 
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.listing-block h2 {
+    color: black;
+    text-transform: uppercase;
+}
+
+.listing-block h2:hover {
+    color: #939bc9;
+}
+
 .iframe {
   margin-bottom: 0px;
 }
