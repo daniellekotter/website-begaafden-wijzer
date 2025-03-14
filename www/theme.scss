@@ -58,18 +58,28 @@ $navbar-bg: lighten($primary, 10%);
   height: 810px;
 }
 
-.overlay-text {
+.overlay-text-right {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 75%;
   transform: translate(-50%, -50%);
   color: white;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 10px;
-  font-size: 50px;
+  font-size: 20px;
   text-align: center;
 }
-
+.overlay-text-left {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
 @media (max-width: 858px) {
   .overlay-text {
     font-size: 30px;
