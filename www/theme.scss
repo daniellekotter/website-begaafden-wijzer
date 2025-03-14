@@ -68,7 +68,9 @@ $navbar-bg: lighten($primary, 10%);
   padding: 10px;
   font-size: 20px;
   text-align: center;
+  max-width: 500px;
 }
+
 .overlay-text-left {
   position: absolute;
   top: 50%;
@@ -79,7 +81,10 @@ $navbar-bg: lighten($primary, 10%);
   padding: 10px;
   font-size: 20px;
   text-align: center;
+  max-width: 500px;
+  min-height: 200px;
 }
+
 @media (max-width: 858px) {
   .overlay-text {
     font-size: 30px;
