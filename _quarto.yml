@@ -19,10 +19,10 @@ website:
         href: content/index.qmd
       - text: "De Begaafden Wijzer"
         menu:
-          - text: Samenhang
+          - text: Visie
             file: content/begaafden_wijzer/index.qmd
-          - text: "Visie"
-            file: content/begaafden_wijzer/visie.qmd
+          - text: "Doelgroepen"
+            file: content/begaafden_wijzer/doelgroepen.qmd
           - text: "Activiteiten"
             file: content/begaafden_wijzer/activiteiten.qmd
           - text: "Tarieven"

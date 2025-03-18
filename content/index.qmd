@@ -19,14 +19,6 @@ listing:
 
 ::: {.content-container}
 ::: {.listing-block}
-<div style="text-align: center;">
-
-</div>
-:::
-:::
-
-::: {.content-container}
-::: {.listing-block}
 
 ### [Projecten](../projecten/index.qmd)
 
