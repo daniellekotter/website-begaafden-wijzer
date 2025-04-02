@@ -2,7 +2,7 @@
 title: "Stichting PReT in Weesp"
 description: "Programmeren voor kinderen in Weesp met PReT. Activiteiten met Scratch, Lego-we-do, Websites maken en Lego Mindstorms."
 date: "5/22/2022"
-image: ../www/images/logo-we-love-weesp.jpg
+image: /www/images/logo-we-love-weesp.jpg
 ---
 
 In het najaar van 2015 is De Begaafden Wijzer samen met 3 basisscholen en een hobbyclub met het aanbieden van Programmeren aan kinderen in en om Weesp. Op de Jan Woudsmaschool Driemond, De Terp en de Jozefschool in Weesp en de Jozefschool uit Muiden, is gestart met het inrichten van een leerlijn programmeren, waarbij in de eerste fase gewerkt wordt met Lego We-do en Mindstorms. Nadat de kinderen de basis van programmeren op school wordt aangeleerd kunnen de kinderen, die dat leuk vinden, aansluiten bij een Hobbyclub: Stichting PReT in Weesp.

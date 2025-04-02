@@ -13,7 +13,7 @@ Het gebruik van de omgeving en de belevingswereld van de kinderen, maar ook de c
 Ik heb de lerarenopleiding gedaan voor de vakken Biologie en Gezondheidskunde. Vanaf 1989 tot 2005 ben ik werkzaam geweest als begeleider van projecten voor softwaregebruik en medische administratie binnen de gezondheidszorg. De vaardigheden die ik door het projectmatig implementeren van software in veranderingstrajecten heb opgedaan, zijn een pré gebleken bij het invoeren van projecten en onderwijsaanpassingen op het gebied van (hoog)begaafdheid.
 
 <div style="float: left; margin-right: 10px;">
-  ![](../www/images/echa_logo.png){fig-alt="Echa Logo" width=200px}
+  ![](/www/images/echa_logo.png){fig-alt="Echa Logo" width=200px}
 </div>
 
 In 2008 heb ik de opleiding [ECHA (Europian Council of High Ability)](https://www.echanetwerk.nl/), een opleiding aan de Radboud Universiteit Nijmegen tot onderwijsdeskundige hoogbegaafdheid, afgerond. In datzelfde jaar ben ik gestart als zelfstandige onderwijsdeskundige (hoog)begaafdheid met mijn eigen bureau "De Begaafden Wijzer". Ik werk graag samen met andere specialisten op het gebied van (hoog)begaafdheid en ben mede oprichter van de vereniging "ECHA Nederland".
