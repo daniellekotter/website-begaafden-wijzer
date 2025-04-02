@@ -2,7 +2,7 @@
 title: "Marijke Schekkerman"
 about: 
     template: trestles
-    image: /www/images/marijke.jpg
+    image: ../www/images/marijke.jpg
     image-shape: round
     image-width: 20em
     links:

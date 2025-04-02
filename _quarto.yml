@@ -12,10 +12,10 @@ website:
   navbar:
     title: false
     logo: /www/logos/logo4.png
-    logo-href: /index.qmd
+    logo-href: index.qmd
     toggle-position: right
     right:
-      - href: /index.qmd
+      - href: index.qmd
         text: Home
       - text: "De Begaafden Wijzer"
         menu:
@@ -74,6 +74,7 @@ format:
     toc: true
     code-link: true
     link-external-newwindow: true 
-
+    page-layout: full
+    
 execute:
   freeze: auto

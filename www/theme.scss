@@ -1,10 +1,15 @@
 /*-- scss:defaults --*/
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Oswald:wght@300;400;500&display=swap');
 
 // Base document colors
 $bw_red: #d1371c;
 $bw_grey: #747572;
+$bw_blue: #1985A1;
+$bw_dark_blue: #0D3B66;
+$bw_pink: #FFCAD4;
+$bw_green: #CEEC97;
 $primary: $bw_red;
 $secondary: $bw_grey;
 
@@ -19,6 +24,12 @@ $navbar-bg: lighten($primary, 10%);
 }
 
 /*-- scss:rules --*/
+
+a {
+  color: darken($primary, 10%);
+  text-decoration: none;
+}
+
 .navbar {
     background-color: $navbar-bg !important;
 }
@@ -84,11 +95,10 @@ $navbar-bg: lighten($primary, 10%);
 }
 
 .listing-block {
-    max-width: 1000px;
     margin: 0 auto;
     padding-bottom: 1.1em; 
     box-sizing: border-box;
-    border-bottom: 1px solid black;
+    // border-bottom: 1px solid black;
 }
 
 .listing-block h2 {
@@ -98,6 +108,62 @@ $navbar-bg: lighten($primary, 10%);
 
 .listing-block h2:hover {
     color: #939bc9;
+}
+
+// .pullout-container {
+//   // padding-top: 2.0em;
+// }
+
+.pullout-block {
+  text-align: center;
+  // max-width: calc(1000px + 6vw);
+  margin: 0 auto;
+  padding-top: 1em;
+  padding-bottom: 1.0em; 
+  box-sizing: border-box;
+}
+
+.pullout-text h2 {
+  font-family: 'Oswald';
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: white;
+  margin-top: 0.5em;
+}
+
+.pullout-text p {
+  text-align: center;
+  font-family: 'Oswald';
+  font-weight: 500;
+  color: white;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #939bc9;
+  text-decoration-thickness: 3px;
+  margin-bottom: 1.5rem;
+}
+
+.black-background {
+  background-color: black;
+}
+
+.blue-background {
+  background-color: $bw_blue
+}
+
+.dark-blue-background {
+  background-color: $bw_dark_blue
+}
+
+.green-background {
+  background-color: $bw_green;
+}
+
+.pink-background {
+  background-color: $bw_pink
 }
 
 .iframe {

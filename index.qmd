@@ -18,10 +18,21 @@ listing:
     feed: false
 ---
 
+
 ::: {.content-container}
 ::: {.listing-block}
 “De Begaafden Wijzer” draagt door middel van professionalisering in het onderwijs veld en leerling- en ouderbegeleiding bij aan de positieve ontwikkeling van deze doelgroep.
 
+:::
+:::
+
+::: {.pullout-container}
+::: {.pullout-text}
+::: {.pullout-block .blue-background}
+
+## Een hoogbegaafd kind/jongere kan uitgroeien tot een hoogbegaafde volwassene, mits de omgeving samenwerkt om de juiste ontwikkeling mogelijk te maken.<br>
+Marijke Schekkerman, 2010
+:::
 :::
 :::
 
@@ -33,5 +44,16 @@ listing:
 ::: {#landing-projects}
 :::
 
+:::
+:::
+
+::: {.pullout-container}
+::: {.pullout-text}
+::: {.pullout-block .dark-blue-background}
+
+## Een hoogbegaafde volwassene is een snelle en slimme denker, die complexe zaken aankan. Autonoom, nieuwsgierig en gedreven van aard. Een sensitief en emotioneel mens. Hij of zij schept plezier in creëren.<br>
+Maud Kooijman-van Tiel, 2008
+
+:::
 :::
 :::
