@@ -12,41 +12,41 @@ website:
   navbar:
     title: false
     logo: /www/logos/logo4.png
-    logo-href: /content/index.qmd
+    logo-href: index.qmd
     toggle-position: right
     right:
-      - text: "Home"
-        href: content/index.qmd
+      - href: index.qmd
+        text: Home
       - text: "De Begaafden Wijzer"
         menu:
           - text: Visie
-            file: content/begaafden_wijzer/index.qmd
+            file: begaafden_wijzer/index.qmd
           - text: "Doelgroepen"
-            file: content/begaafden_wijzer/doelgroepen.qmd
+            file: begaafden_wijzer/doelgroepen.qmd
           - text: "Activiteiten"
-            file: content/begaafden_wijzer/activiteiten.qmd
+            file: begaafden_wijzer/activiteiten.qmd
           - text: "Tarieven"
-            file: content/begaafden_wijzer/tarieven.qmd
+            file: begaafden_wijzer/tarieven.qmd
       - text: "Hoogbegaafdheid"
         menu:
           - text: "Overzicht"
-            file: content/hoogbegaafdheid/index.qmd
+            file: hoogbegaafdheid/index.qmd
           - text: "Kenmerken"
-            file: content/hoogbegaafdheid/kenmerken.qmd
+            file: hoogbegaafdheid/kenmerken.qmd
           - text: "Onderwijs"
-            file: content/hoogbegaafdheid/onderwijs_aanpassing.qmd
+            file: hoogbegaafdheid/onderwijs_aanpassing.qmd
       - text: "Ouders en Kinderen"
         menu:
           - text: "Overzicht"
-            file: content/ouders_en_kinderen/index.qmd
-          - text: "Kindbegeleiding"
-            file: content/ouders_en_kinderen/kindbegeleiding.qmd
+            file: ouders_en_kinderen/index.qmd
+          - text: "Leerlingbegeleiding"
+            file: ouders_en_kinderen/leerlingbegeleiding.qmd
           - text: "Ouderbegeleiding"
-            file: content/ouders_en_kinderen/ouderbegeleiding.qmd
+            file: ouders_en_kinderen/ouderbegeleiding.qmd
       - text: "Projecten"
         href: projecten/index.qmd
       - text: "Contact"
-        file: content/contact/index.qmd
+        file: contact/index.qmd
   page-navigation: true
   back-to-top-navigation: false
 

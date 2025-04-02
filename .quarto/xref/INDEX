@@ -139,5 +139,56 @@
   },
   "content/begaafden_wijzer/doelgroepen.qmd": {
     "doelgroepen.html": "2ffc3c76"
+  },
+  "contact/contact.qmd": {
+    "contact.html": "819f3588"
+  },
+  "contact/index.qmd": {
+    "index.html": "3ace4d06"
+  },
+  "contact/wie.qmd": {
+    "wie.html": "b19b0e63"
+  },
+  "hoogbegaafdheid/kenmerken.qmd": {
+    "kenmerken.html": "cf55c424"
+  },
+  "hoogbegaafdheid/index.qmd": {
+    "index.html": "dd0c15fb"
+  },
+  "hoogbegaafdheid/onderwijs_aanpassing.qmd": {
+    "onderwijs_aanpassing.html": "ae65710e"
+  },
+  "begaafden_wijzer/activiteiten.qmd": {
+    "activiteiten.html": "029fe836"
+  },
+  "begaafden_wijzer/index.qmd": {
+    "index.html": "c0003218"
+  },
+  "begaafden_wijzer/tarieven.qmd": {
+    "tarieven.html": "4ef3b70e"
+  },
+  "begaafden_wijzer/doelgroepen.qmd": {
+    "doelgroepen.html": "5e2468d7"
+  },
+  "scholen/scholen.qmd": {
+    "scholen.html": "b8318c00"
+  },
+  "ouders_en_kinderen/kindbegeleiding.qmd": {
+    "kindbegeleiding.html": "181df53c"
+  },
+  "ouders_en_kinderen/index.qmd": {
+    "index.html": "c2c266c9"
+  },
+  "ouders_en_kinderen/klachten.qmd": {
+    "klachten.html": "9296bfac"
+  },
+  "ouders_en_kinderen/ouderbegeleiding.qmd": {
+    "ouderbegeleiding.html": "6776634c"
+  },
+  "scholen/index.qmd": {
+    "index.html": "caf5061e"
+  },
+  "ouders_en_kinderen/leerlingbegeleiding.qmd": {
+    "leerlingbegeleiding.html": "a34c1cfe"
   }
 }

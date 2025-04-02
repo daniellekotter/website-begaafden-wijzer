@@ -1,9 +1,0 @@
----
-title: "Ouders en Kinderen"
----
-
-{{< include kindbegeleiding.qmd >}}
-
-{{< include ouderbegeleiding.qmd >}}
-
-{{< include klachten.qmd >}}
