@@ -2,7 +2,7 @@
 title: "FamilieXpeditie"
 description: "De FamilieXpeditie Bonaire is een weekprogramma voor gezinnen met kinderen in de basisschoolleeftijd. Het programma bestaat uit een combinatie van verrijkingsonderwijs voor kinderen, een inspirerend ouderprogramma en leuke verbindende gezinsactiviteiten."
 date: "5/22/2018"
-image: ../../www/logos/logo-groot-2-300x59.jpg
+image: ../www/logos/logo-groot-2-300x59.jpg
 ---
 
 **Je kind hoogbegaafd ….en wat dan ??**<br>

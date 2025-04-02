@@ -4,7 +4,7 @@ toc: false
 ---
 
 <div style="float: right; margin-left: 15px;">
-  ![](../../www/images/archeon_rik.jpg){fig-alt="rik" width=350px}
+  ![](../www/images/archeon_rik.jpg){fig-alt="rik" width=350px}
 </div>
 
 "De Begaafden Wijzer" heeft als doel ouders en scholen te helpen bij het ontwikkeling en begeleiden van (hoog)begaafde leerlingen.
